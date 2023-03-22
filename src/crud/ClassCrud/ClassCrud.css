@@ -1,0 +1,249 @@
+table,thead,tr,td{
+    border: 1px solid black;
+}
+
+
+
+.postlist{
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+/* in built csss */
+/* Text Color */
+
+.text-red{
+    color: red;
+}
+.text-black{
+    color: black;
+}
+.text-white{
+    color: white;
+}
+.text-orange{
+    color: OrangeRed;
+}
+.text-blue{
+    color: blue;
+}
+.text-lblue{
+    color: LightBlue;
+}
+.text-yellow{
+    color: yellow;
+}
+.text-green{
+    color: greenyellow;
+}
+
+.text-dpink{
+    color: DeepPink;
+}
+.text-hpink{
+    color: HotPink;
+}
+.text-violet{
+    color: Violet;
+}
+.text-purple{
+    color: Purple;
+
+}
+.text-aqua{
+    color: Aqua;
+}
+.text-aqua1{
+    color: Aquamarine;
+}
+.text-brown{
+    color: Wheat;
+}
+.text-brown1{
+    color: Cornsilk;
+}
+.text-gray{
+    color: Gainsboro;
+}
+.text-silver{
+    color: Silver;
+}
+
+
+
+
+/* background-color */
+
+.bg-red{
+    background-color: red;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-orange{
+    background-color: OrangeRed;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-lblue{
+    background-color: LightBlue;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-dpink{
+    background-color: DeepPink;
+}
+.bg-hpink{
+    background-color: HotPink;
+}
+.bg-violet{
+    background-color: Violet;
+}
+.bg-purple{
+    background-color: Purple;
+
+}
+.bg-aqua{
+    background-color: Aqua;
+}
+.bg-aqua1{
+    background-color: Aquamarine;
+}
+.bg-brown{
+    background-color: Wheat;
+}
+.bg-brown1{
+    background-color: Cornsilk;
+}
+.bg-gray{
+    background-color: Gainsboro;
+}
+.bg-silver{
+    background-color: Silver;
+}
+
+
+
+/* margin right */
+
+.ms-6{
+    margin-left: 96px;
+}
+.ms-7{
+    margin-left: 112px;
+}
+.ms-8{
+    margin-left: 128px;
+}
+.ms-9{
+    margin-left: 150px;
+}
+.ms-10{
+    margin-left: 200px;
+}
+.ms-11{
+    margin-left: 250px;
+}
+.ms-12{
+    margin-left: 300px;
+}
+.ms-13{
+   margin-leftmargin-leftmargin-leftmargin-left: 350px;
+}
+
+
+
+/* margin bottom */
+
+.mb-6{
+    margin-bottom: 96px;
+ }
+ .mb-7{
+    margin-bottom: 112px;
+ }
+ .mb-8{
+    margin-bottom: 128px;
+ }
+ .mb-9{
+    margin-bottom: 150px;
+ }
+ .mb-10{
+    margin-bottom: 200px;
+ }
+ .mb-11{
+    margin-bottom: 250px;
+ }
+ .mb-12{
+    margin-bottom: 300px;
+ }
+ .mb-13{
+    margin-bottom: 350px;
+ }
+ 
+ 
+ /* margin top */
+ .mt-6{
+     margin-top: 96px;
+  }
+  .mt-7{
+     margin-top: 112px;
+  }
+  .mt-8{
+     margin-top: 128px;
+  }
+  .mt-9{
+     margin-top: 150px;
+  }
+  .mt-10{
+     margin-top: 200px;
+  }
+  .mt-11{
+     margin-top: 250px;
+  }
+  .mt-12{
+     margin-top: 300px;
+  }
+  .mt-13{
+     margin-top: 350px;
+  }
+  
+ /* margin left */
+
+ .me-6{
+     margin-right: 96px;
+  }
+  .me-7{
+     margin-right: 112px;
+  }
+  .me-8{
+     margin-right: 128px;
+  }
+  .me-9{
+     margin-right: 150px;
+  }
+  .me-10{
+     margin-right: 200px;
+  }
+  .me-11{
+     margin-right: 250px;
+  }
+  .me-12{
+     margin-right: 300px;
+  }
+  .me-13{
+     margin-right: 350px;
+  }
+  
