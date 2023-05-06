@@ -1,0 +1,33 @@
+
+Q. What are the Components ?
+1. The entire application divided into small logical group of code is known as components
+
+-----------------------------------------------------------------------------
+
+Q. What is a class component?
+1. class component simple and easy to understand 
+2. class compomet requires you to extend from react.component  
+3. And create render method which return a react element  
+4. It cannot be reused 
+5. we can use state and setstate in class components
+
+-----------------------------------------------------------------------------
+
+Q. What is a Function component?
+1. Functional components is a just plain javascript function
+2. which accepts props as a argument and return react element
+3. It’s can be reused 
+4. In Function we can’t use state and overcome this
+
+-----------------------------------------------------------------------------
+
+Q.Differentiate Between Stateful And Stateless Components.
+
+Stateful Component
+1. class components is Stateful components
+
+Stateless Component
+1. function components is Stateless components
+
+-----------------------------------------------------------------------------
+

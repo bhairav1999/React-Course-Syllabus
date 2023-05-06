@@ -1,172 +1,66 @@
+import React from 'react';
+import BasicFormInclassComponets from './React Syllabus/Day 10/BasicFormInclassComponets';
+import BasicFormInFunctionComponents from './React Syllabus/Day 11/BasicFormInFunctionComponents';
+import LifeCycle from './React Syllabus/Day 12/LifeCycle';
+import PureComponents from './React Syllabus/Day 13/PureComponents';
+import RefsinClassComponents from './React Syllabus/Day 14/RefsinClassComponents';
+import PropsDerlingInClass from './React Syllabus/Day 15/PropsDerlingInClass';
+import PropsDrilngInFunctionComponents from './React Syllabus/Day 16/PropsDrilngInFunctionComponents';
+import UseStateHooks from './React Syllabus/Day 17/UseStateHooks';
+import UseEffectHooks from './React Syllabus/Day 18/UseEffectHooks';
+import UseRefHooks from './React Syllabus/Day 19/UseRefHooks';
+import ClassComponents from './React Syllabus/Day 2/ClassComponents';
+import FunctionComponents from './React Syllabus/Day 2/FunctionComponents';
+import UseContextHooks from './React Syllabus/Day 20/UseContextHooks';
+import UseReducerHooks from './React Syllabus/Day 21/UseReducerHooks';
+import UseMemoHooks from './React Syllabus/Day 22/UseMemoHooks';
+import HOComponents from './React Syllabus/Day 23/HOComponents';
+import PropsInClassComponets from './React Syllabus/Day 3/PropsInClassComponets';
+import PropsInFunctionComponents from './React Syllabus/Day 3/PropsInFunctionComponents';
+import Stateclasscomponents from './React Syllabus/Day 4/Stateclasscomponents';
+import Destructringstate from './React Syllabus/Day 5/Destructringstate';
+import DestructringstatepropsInclass from './React Syllabus/Day 5/DestructringstatepropsInclass';
+import Destructringstatepropsinfunction from './React Syllabus/Day 5/Destructringstatepropsinfunction';
+import EventBinding from './React Syllabus/Day 6/EventBinding';
+import ConditionalRendring from './React Syllabus/Day 7/ConditionalRendring';
+import ListRendring from './React Syllabus/Day 8/ListRendring';
+import StylingInCss from './React Syllabus/Day 9/StylingInCss';
+import LoginForm from './Class work/Day 50/LoginForm';
 
-
-import HocStep from "./CodeStep/Hoc/HocStep";
-// import EmployeStore from './Class work/Day 22/EmployeStore';
-// import ComClass from "./Class work/Day 3/ComClass";
-// import ComFun from "./Class work/Day 3/ComFun";
-// import HelloComponet from "./Class work/Day 4/HelloComponet";
-// import JsxComponent from "./Class work/Day 5/JsxComponent";
-// import PropsComponent from "./Class work/Day 5/PropsComponent";
-// import PropsClassComponent from "./Class work/Day 6/PropsClassComponent";
-// import PropsDestructuringFunctionalComp from "./Class work/Day 6/PropsDestructuringFunctionalComp";
-// import PropsDestructuingClassComp from "./Class work/Day 6/PropsDestructuingClassComp";
-// import CompStyling from "./Class work/Day 9/CompStyling";
-// import FormData from "./Class work/Day 9/FormData";
-// import StateReactComp from "./Class work/Day 6/StateReactComp";
-// import ParentComp from "./Class work/Day 8/ParentComp";
-import ListRendering from "./Class work/Day 8/ListRendering";
-
-
-
-
-
-// import ConditinalRenderingInReact from "./Class work/Day 8/ConditinalRenderingInReact";
-// import EventBinding from "./Class work/Day 7/EventBinding";
-// import ReactStateInClassComp from "./Class work/Day 7/ReactStateInClassComp";
-// import ClassCompLifeCycleMethod from "./Class work/Day 10/ClassCompLifeCycleMethod";
-// import ReactMaterial from "./Class work/Day 12/ReactMaterial";
-// import PropsDeriling from "./Class work/Day 12/PropsDeriling";
-// import LifecycleMyPractise from "./Class work/Day 10/LifecycleMyPractise";
-// import PureCom from "./Class work/Day 11/PureCom";
-// import ReactHooks from "./Class work/Day 13/ReactHooks";
-// import ReactClassCom from "./Class work/Day 13/ReactClassCom";
-// import PureComPra from "./Class work/Day 11/PureComPra";
-// import RefsinClassCom from "./Class work/Day 11/RefsinClassCom";
-// import HooksinReact from "./Class work/Day 14/HooksinReact";
-// import UseEffect from "./Class work/Day 14/UseEffect";
-// import PracticeReact from "./My_Practice/PracticeReact";
-// import UseRefHooks from "./Class work/Day 15/UseRefHooks";
-// import Parent from './Revision/day_1/Parent'
-// import Parent_A from './My_Practice/Parent_A'
-// import PropDrilingClass from './Class work/Day 16/PropDrilingClass'
-// import ParentFun from './Class work/Day 19/ParentFun'
-// import CrudMain from './crud/CrudMain';
-// import HoverComp from './Class work/Day 24/HoverComp'
-// import ClickCounter from './Class work/Day 24/ClickCounter'
-// import HigherOrderComponent from './Class work/Day 24/HigherOrderComponent';
-// import ErrorBoundries from './Class work/Day 24/ErrorBoundries'
-// import ParentMain from './CompanyCrud/ParentMain'
-// import Dataimp from './DataImport/Dataimp'
-// import Memo from './Class work/Day 18/Memo';
-// import Extramain from './ExtraWork/Extramain'
-// import Project from './Project/Project';
-
-
-
-// // router
-// import Contact from "./Class work/Day 15/Contact";
-// import Home from "./Class work/Day 15/Home";
-// import About from "./Class work/Day 15/About";
-// import PropfFunParent from './Class work/Day 20/PropfFunParent'
-// import HocStep from './CodeStep/Hoc/HocStep'
-
-// import {
-//   BrowserRouter as Router,
-//   Routes,
-//   Route,
-//   Link
-// } from 'react-router-dom';
-
-function App() {
-
+const App = () => {
   return (
-    <div> 
-      
-
-      {/* <ComClass />
-      <ComFun /> */}
-      {/* <HelloComponet /> */}
-      {/* <JsxComponent /> */}
-      {/* <PropsComponent user={name}></PropsComponent> */}
-      {/* <PropsClassComponent message={"this is props passed from app comp"}/> */}
-      {/* <PropsDestructuingClassComp name={'Ramesh' } city={'pune'} company={'PWC'}/> */}
-      {/* <PropsDestructuringFunctionalComp name={'Ramesh' } city={'pune'} company={'PWC'}/> */}
-      {/* <CompStyling /> */}
-      {/* <FormData /> */}
-      {/* <StateReactComp /> */}
-      {/* <ParentComp /> */}
-      <ListRendering />
-      {/* <ConditinalRenderingInReact /> */}
-      {/* <EventBinding /> */}
-      {/* <ReactStateInClassComp /> */}
-      {/* <ClassCompLifeCycleMethod msg={"first day"}/> */}
-      {/* <PureCom msg={" welcome"} /> */}
-      {/* <PureComPra /> */}
-      {/* <RefsinClassCom /> */}
-      {/* <ReactMaterial /> */}
-      {/* <PropsDeriling /> */}
-      {/* <LifecycleMyPractise /> */}
-
-{/* <EmployeStore/> */}
-
-      {/* <ReactHooks /> */}
-      {/* <HooksinReact /> */}
-      {/* <UseEffect /> */}
-      {/* <ReactClassCom /> */}
-      {/* <PropfFunParent/> */}
-
-      {/* <Memo/> */}
-      
-      {/* <Dataimp/> */}
-      {/* <PracticeReact/> */}
-      {/* <Parent_A /> */}
-      
-{/* <PropDrilingClass /> */}
-{/* <ParentFun /> */}
-      {/* <Parent /> */}
-      {/* <UseRefHooks />  */}
-      
-{/* <CrudMain/> */}
-{/* <HoverComp/> */}
-{/* <ClickCounter/> */}
-{/* <HigherOrderComponent/> */}
-{/* <ErrorBoundries/> */}
-
-
-{/* <ParentMain/> */}
-{/* <Extramain/> */}
-
-{/* <Project/> */}
-
-
-{/* code step */}
-
-
-{/* <HocStep  /> */}
-
-
-
-
-
-
-
-
-
-
-
-      {/* <Router>
-        <div>
-          <ul>
-            <li>
-              <Link to="/Home">Home</Link>
-            </li>
-            <li>  <Link to="/Contact">Contact</Link></li>
-            <li>  <Link to="/About">About</Link></li>
-          </ul>
-          <Routes>
-            <Route exact path="/Home" element={<Home/>} ></Route>
-            <Route exact path="/Contact" element={<Contact/>} ></Route>
-            <Route exact path="/About" element={<About/>} ></Route>
-          </Routes>
-        </div>
-      </Router> */}
-
-
-
-
+    <div>
+{/* <ClassComponents/> */}
+{/* <FunctionComponents/> */}
+{/* <PropsInClassComponets name={"I am Ram"}/> */}
+{/* <PropsInFunctionComponents name={'i am Raj'}/> */}
+{/* <Stateclasscomponents/> */}
+{/* <DestructringstatepropsInclass name={"i am raj"}/> */}
+{/* <Destructringstatepropsinfunction name={"i am rahul"}/> */}
+{/* <Destructringstate/> */}
+{/* <EventBinding/> */}
+{/* <ConditionalRendring/> */}
+{/* <ListRendring/> */}
+{/* <StylingInCss/> */}
+{/* <BasicFormInclassComponets/> */}
+{/* <BasicFormInFunctionComponents/> */}
+{/* <LifeCycle User={"i am shyam"}/> */}
+{/* <PureComponents/> */}
+{/* <RefsinClassComponents/> */}
+{/* <PropsDerlingInClass/> */}
+{/* <PropsDrilngInFunctionComponents/> */}
+{/* <UseStateHooks/> */}
+{/* <UseEffectHooks/> */}
+{/* <UseRefHooks/> */}
+{/* <UseContextHooks/> */}
+{/* <UseReducerHooks/> */}
+{/* <UseMemoHooks/> */}
+{/* <HOComponents/> */}
+<LoginForm/>
 
 
     </div>
   );
 }
+
 export default App;

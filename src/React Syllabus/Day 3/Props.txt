@@ -1,0 +1,9 @@
+
+What is a Props Object ? 
+
+1. Props stands for properties in react
+2. We use props in React pass a data from a parent components to child components 
+3. But you Can’t Pass props from a  child components to parent components
+4. props is a read-only , cannot be modified
+
+-----------------------------------------------------------------------------

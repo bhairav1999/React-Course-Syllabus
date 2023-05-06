@@ -1,0 +1,6 @@
+
+what is Destructuring 
+
+--> Destructuring makes it easy to extract only what is needed.
+
+-----------------------------------------------------------------------------

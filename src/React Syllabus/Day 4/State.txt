@@ -1,0 +1,12 @@
+
+What is a State Object ?
+
+1. State is a just plain javascript object 
+2. Used by react represent a pisces  of information about the components current situation 
+3. Its managed in the components (just like any variable declaration in fun )
+4. the state object where you store property values that belongs to the components
+5. when the state object change the components re-render 
+6. state data can be modified by its own components , but its private (cannot be accessed from outside)
+
+-----------------------------------------------------------------------------
+

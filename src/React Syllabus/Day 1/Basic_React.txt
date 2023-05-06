@@ -1,0 +1,124 @@
+
+Q.what is react ? 
+
+React is a free and open source front-end javascript library.  
+For building single page applications and user interfaces based on the UI components.
+
+-----------------------------------------------------------------------------
+
+Q.Differentiate Between Real DOM And Virtual DOM.
+
+REAL DOM
+1. It Updates Slow.
+2. Can Directly Update HTML.
+3. Creates A New DOM If Element Updates.
+4. DOM Manipulation Is Very Expensive.
+5. Too Much Of Memory Wastage.
+
+VIRTUAL DOM
+1. It Updates Faster.
+2. Can’t Directly Update HTML.
+3. TUpdates The JSX If Element Updates.
+4. DDOM Manipulation Is Very Easy.
+5. No Memory Wastage.
+
+-----------------------------------------------------------------------------
+
+Q.What Are The Features Of React?
+
+1. JSX
+2. Components
+3. It Follows Uni-Directional Data Flow Or One-Way Data Binding
+4. Virtual DOM
+5. Simplicity
+6. Performance
+7. It Uses Server-Side Rendering
+
+-----------------------------------------------------------------------------
+
+Q. What Are The Advantages Of React?
+
+1. Reusable Components
+2. It increases the  application performase  
+3. Jsx code readability increases 
+
+-----------------------------------------------------------------------------
+
+Q. What are the limitations of react ?
+
+1. React is a just library not a flow blown Framework
+2. It is library very large and takes time to understand
+
+-----------------------------------------------------------------------------
+
+Q. What is JSX?
+ 
+1. Jsx stands for javascript xml 
+2. Basically jsx and Html are similers
+3. Jsx allows us to write Html in react
+
+-----------------------------------------------------------------------------
+
+Q. What are Fragments in React?
+
+1. basically react Fragment allows you to return multiple elements from a React component
+
+-----------------------------------------------------------------------------
+
+Q. Folder Structure in react ?
+
+
+├── node_modules
+├── public
+│   ├── index.html
+│   └── favicon.ico
+├── src
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   └── ...
+│   ├── pages
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   └── ...
+│   ├── assets
+│   │   ├── images
+│   │   ├── styles
+│   │   └── ...
+│   ├── utils
+│   │   ├── api.js
+│   │   ├── helpers.js
+│   │   └── ...
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+├── package-lock.json
+└── README.md
+
+-------------------------------------
+
+node_modules: This folder contains all the dependencies installed via npm or yarn.
+
+public: This folder contains the static files that will be served by the web server. The index.html file is the main HTML file for your app,
+
+src: This folder contains all the source code for your React app.
+
+components: This folder contains reusable React components that can be used across multiple pages in your app.
+
+pages: This folder contains React components that represent the different pages in your app.
+
+assets: This folder contains images, stylesheets, fonts, and other assets that your app may need.
+
+utils: This folder contains utility functions that can be used across your app.
+
+App.js: This is the main React component that renders the entire app.
+
+index.js: This is the entry point for your app, where the React app is rendered into the DOM.
+
+package.json and package-lock.json: These files contain information about your app's dependencies and other metadata.
+
+README.md: This file contains information about your app and how to run it.
+
+
+-----------------------------------------------------------------------------
